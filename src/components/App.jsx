@@ -59,7 +59,7 @@ export const App = () => {
         .catch((error) => setError(error))
         .finally(setIsLoading(false));
     }
-  }, [isLoading])
+  }, [isLoading, images, input, page])
 
   return (
     <>
